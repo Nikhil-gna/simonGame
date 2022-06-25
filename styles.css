@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #1B2430;
+}
+h2
+{
+  font-family: cursive;
+  color: red;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+.Rbutton
+{
+  font-size: 1.5rem;
+  font-family:cursive;
+  width: 138px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.75);
+  background-blend-mode: soft-light;
+  backdrop-filter: blur(70px);
+  border-radius: 40px;
+}
+.Startbtn
+{
+ font-size: 1.5rem;
+ font-family:cursive;
+ width: 138px;
+ height: 45px;
+ background: rgba(255, 255, 255, 0.75);
+ background-blend-mode: soft-light;
+ backdrop-filter: blur(70px);
+ border-radius: 40px;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
